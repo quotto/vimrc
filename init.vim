@@ -1,5 +1,6 @@
 call plug#begin()
 Plug 'unblevable/quick-scope'
+Plug 'tpope/vim-surround'
 if exists('g:vscode')
     Plug 'asvetliakov/vim-easymotion'
     nmap s <Plug>(easymotion-s)
